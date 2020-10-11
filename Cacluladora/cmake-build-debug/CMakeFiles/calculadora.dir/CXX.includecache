@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/alfon/OneDrive/Documentos/AA 3 sem/Computacion/PracticasComputacionI/Cacluladora/main.cpp
+iostream
+-
+

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
-project(calculadora)
+project(Cacluladora)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(calculadora main.cpp)
+add_executable(Cacluladora main.cpp)

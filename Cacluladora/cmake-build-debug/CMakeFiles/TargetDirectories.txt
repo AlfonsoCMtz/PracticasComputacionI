@@ -1,0 +1,3 @@
+C:/Users/alfon/OneDrive/Documentos/AA 3 sem/Computacion/PracticasComputacionI/Cacluladora/cmake-build-debug/CMakeFiles/Cacluladora.dir
+C:/Users/alfon/OneDrive/Documentos/AA 3 sem/Computacion/PracticasComputacionI/Cacluladora/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/alfon/OneDrive/Documentos/AA 3 sem/Computacion/PracticasComputacionI/Cacluladora/cmake-build-debug/CMakeFiles/rebuild_cache.dir

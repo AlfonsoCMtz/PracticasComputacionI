@@ -16,7 +16,7 @@ int main()
    cin >> ope;
 
    if( (num2 == 0) && (ope == '/'))
-   cout << "error no se puede dividir entre 0";
+   cout << "error no se puede dividir entre 0"<< endl;
 
     switch (ope)
     {

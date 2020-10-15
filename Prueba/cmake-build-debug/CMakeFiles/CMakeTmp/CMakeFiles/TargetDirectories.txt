@@ -1,3 +1,0 @@
-C:/Users/alfon/OneDrive/Documentos/AA 3 sem/Computacion/PracticasComputacionI/Prueba/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
-C:/Users/alfon/OneDrive/Documentos/AA 3 sem/Computacion/PracticasComputacionI/Prueba/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3a679.dir
-C:/Users/alfon/OneDrive/Documentos/AA 3 sem/Computacion/PracticasComputacionI/Prueba/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir

@@ -13,39 +13,41 @@ using namespace std;
 
 void Punto2D::SetPosicion(float x, float y) {
 
-    XI=x;
-    YI=y;
+    PX=x;
+    PY=y;
 }
 
 void Punto2D::Escalar(float temp1, float temp2) {
 
-    XI = temp1 * XI;
-    YI = temp2 * YI;
+    PX = temp1 * PX;
+    PY = temp2 * PY;
 }
 
 void Punto2D::Trasladar(float temp1, float temp2) {
 
-    XI = temp1 + XI;
-    YI = temp2 + YI;
+   PX = temp1 + PX;
+    PY = temp2 + PY;
 }
 void Punto2D::RotarRespectoAlOrigen(float temp1) {
 
-        float r=sqrt((XI*YI)+(YI*YI));
-        float theta=atan(YI/XI);
+        float r=sqrt((PX*PY)+(PY*PY));
+        float theta=atan(PY/PX);
         temp1=(temp1*3.1415926535)/180;
 
-        XI=r*cos(theta+temp1);
-        YI=r*sin(theta+temp1);
+        PX=r*cos(theta+temp1);
+        PY=r*sin(theta+temp1);
+
+
 
 
 }
 
 float Punto2D::GetX() {
-    return YI;
+    return PY;
 }
 
 float Punto2D::GetY() {
-        return XI;
+        return PX;
     }
 
 

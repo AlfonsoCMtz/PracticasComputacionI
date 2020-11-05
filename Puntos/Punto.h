@@ -9,7 +9,7 @@
 class Punto2D {
 
 public:
-    float XI{0}, YI{0};
+    float PX{0}, PY{0};
 
     void SetPosicion(float x, float y);
 

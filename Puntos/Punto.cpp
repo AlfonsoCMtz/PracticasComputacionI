@@ -13,20 +13,20 @@ using namespace std;
 
 void Punto2D::SetPosicion(float x, float y) {
 
-    PX=x;
-    PY=y;
+    XI=x;
+    XI=y;
 }
 
 void Punto2D::Escalar(float temp1, float temp2) {
 
-    PX = temp1 * PX;
-    PY = temp2 * PY;
+    XI = temp1 * XI;
+    YI = temp2 * YI;
 }
 
 void Punto2D::Trasladar(float temp1, float temp2) {
 
-   PX = temp1 + PX;
-    PY = temp2 + PY;
+   XI = temp1 + XI;
+    YI = temp2 + YI;
 }
 void Punto2D::RotarRespectoAlOrigen(float temp1) {
 
@@ -37,17 +37,14 @@ void Punto2D::RotarRespectoAlOrigen(float temp1) {
         PX=r*cos(theta+temp1);
         PY=r*sin(theta+temp1);
 
-
-
-
 }
 
 float Punto2D::GetX() {
-    return PY;
+    return XI;
 }
 
 float Punto2D::GetY() {
-        return PX;
+        return YI;
     }
 
 

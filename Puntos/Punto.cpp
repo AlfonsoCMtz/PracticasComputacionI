@@ -14,7 +14,7 @@ using namespace std;
 void Punto2D::SetPosicion(float x, float y) {
 
     XI=x;
-    XI=y;
+    YI=y;
 }
 
 void Punto2D::Escalar(float temp1, float temp2) {

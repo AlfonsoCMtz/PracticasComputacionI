@@ -25,17 +25,17 @@ void Punto2D::Escalar(float temp1, float temp2) {
 
 void Punto2D::Trasladar(float temp1, float temp2) {
 
-   XI = temp1 + XI;
+    XI = temp1 + XI;
     YI = temp2 + YI;
 }
 void Punto2D::RotarRespectoAlOrigen(float temp1) {
 
-        float r=sqrt((PX*PY)+(PY*PY));
-        float theta=atan(PY/PX);
-        temp1=(temp1*3.1415926535)/180;
+    float r=sqrt((XI*YI)+(YI*YI));
+    float theta=atan(YI/XI);
+    temp1=(temp1*3.1415926535)/180;
 
-        PX=r*cos(theta+temp1);
-        PY=r*sin(theta+temp1);
+    XI=r*cos(theta+temp1);
+    YI=r*sin(theta+temp1);
 
 }
 
@@ -44,7 +44,6 @@ float Punto2D::GetX() {
 }
 
 float Punto2D::GetY() {
-        return YI;
-    }
-
+    return YI;
+}
 
